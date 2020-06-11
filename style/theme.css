@@ -1,0 +1,84 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
+
+/* General - Start */
+:root {
+    --color-blue: rgb(0, 96, 223);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14pt;
+    line-height: 1.2;
+}
+
+body > section {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+/* General - End */
+
+/* Page header - Start */
+header > div {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1.5em;
+    width: max-content;
+    margin: auto;
+}
+
+header {
+    background: var(--color-blue);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .3);
+}
+
+header h1 {
+    font-size: 200%;
+    margin: 0;
+    color: white;
+}
+
+header img {
+    width: 30pt;
+    margin-right: .5em;
+}
+/* Page header - End */
+
+/* Donation banner - Start */
+.donate {
+    background: var(--color-blue);
+    color: white;
+    display: flex;
+    padding: .5em 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.donate span {
+    flex: 1;
+}
+
+.donate a {
+    color: var(--color-blue);
+    text-decoration: none;
+    background: white;
+    padding: .5em 1em;
+    border-radius: 10px;
+}
+/* Donation banner - End */
