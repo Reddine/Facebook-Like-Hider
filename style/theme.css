@@ -5,6 +5,7 @@
 /* General - Start */
 :root {
     --color-blue: rgb(0, 96, 223);
+    --color-dark: #333;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
     margin: 0;
     font-size: 14pt;
     line-height: 1.2;
+    color: var(--color-dark);
 }
 
 body > section {
@@ -41,7 +43,7 @@ header > div {
 }
 
 header {
-    background: var(--color-blue);
+    background: var(--color-dark);
     position: sticky;
     top: 0;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, .3);
